@@ -52,3 +52,52 @@
 .search-bar>input:focus{
     outline: none;
 }
+
+.my-hero-section{
+    width: 100vw;}
+
+.my-scrollable-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    width: 85vw;
+    margin-inline: auto;
+}
+
+.list{
+    width: 100%;
+    margin-inline: auto;
+    white-space: nowrap;
+}
+
+.list>div{
+    display: inline-block;
+    margin: 10px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+.my-catogeries>div{
+    padding: 0px;
+}
+.my-catogeries{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85vw;
+    margin-inline: auto;
+}
+
+.my-catogeries-div{
+    width: 85vw;
+    justify-content: center;
+    margin-inline: auto;
+}
+
+.my-card{
+    width: 180px;
+}
