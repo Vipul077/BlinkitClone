@@ -91,25 +91,31 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    column-gap: 10px;
     width: 85vw;
     margin-inline: auto;
 }
-
+/* ₹ */
 .my-catogeries-div{
     width:85vw;
     display: flex;
     margin-inline: auto;
-    position: relative;
+    /* position: relative; */
     flex-direction: column;
     background: rgb(255, 255, 255);
 }
 
 .my-card{
     cursor: pointer;
+    padding-right: 20px;
     flex: 0 1 0%;
     min-width: 190px;
     max-width: 190px;
+} 
+
+.shadow{
+    box-shadow: 0.2rem 0.2rem rgba(0,0,0,.15)!important
 }
 
 .time-taken{
@@ -132,9 +138,12 @@
     margin-bottom: 6px;
 }
 
-.product-weigth{
+.product-weight{
+    font-size: 13px ;
+}
+.time-taken>.product-weigth{
     color: #666666;
-    font-size: 11px;
+    font-size: 9px;
 }
 
 .product-price{
